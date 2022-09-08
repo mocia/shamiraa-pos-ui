@@ -18,10 +18,10 @@ export async function configure(aurelia) {
     .standardConfiguration()
     .feature("components")
     .plugin("aurelia-api", (config) => {
-      var auth = "https://com-shamiraa-service-auth-dev.azurewebsites.net/v1/";
-      var core = "https://com-shamiraa-service-core-dev.azurewebsites.net/v1/";
-      var pos = "https://com-shamiraa-service-pos-dev.azurewebsites.net/v1/";
-      var inventory = "https://com-shamiraa-service-warehouse-dev.azurewebsites.net/v1/";
+      var auth = "https://com-shamiraa-service-auth.azurewebsites.net/v1/";
+      var core = "https://com-shamiraaservice-core.azurewebsites.net/v1/";
+      var pos = "https://com-shamiraa-service-pos.azurewebsites.net/v1/";
+      var inventory = "https://com-shamiraa-service-warehouse.azurewebsites.net/v1/";
 
       config.registerEndpoint("auth", auth);
       config.registerEndpoint("core", core);
