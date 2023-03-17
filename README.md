@@ -1,1 +1,1 @@
-# shamiraa-pos-ui
+# SHAMIRAA-pos-ui
